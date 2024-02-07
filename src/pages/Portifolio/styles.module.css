@@ -1,3 +1,31 @@
 .container {
-  
+  display: flex;
+
+  margin-top: 45px;
+  text-align: center;
+  padding: 15px 60px;
+  padding: 0 450px;
+  align-items: center;
+  justify-content: center;
+}
+
+.container h1 {
+  font-size: 22px;
+  border: 1px solid white;
+}
+
+.imgContent {
+  display: flex;
+  justify-content: center;
+}
+
+.container img {
+  height: 390px;
+  width: 900px;
+}
+
+@media screen and (max-width: 685px) {
+  .container {
+    padding: 0;
+  }
 }

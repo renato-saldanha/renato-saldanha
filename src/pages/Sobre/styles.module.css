@@ -32,6 +32,12 @@
   border-radius: 5px;
 }
 
+@media screen and (min-width: 685px){
+  .containerImg img {
+  object-position: 0 -260px;
+  }
+}
+
 @media screen and (max-width: 685px) {
   .container {
     display: flex;
@@ -39,7 +45,6 @@
     margin: 15px 16px 0px 16px;
     align-items: center;
     justify-content: center;
-    /* width: 100%; */
   }
 
   .containerSobre {
