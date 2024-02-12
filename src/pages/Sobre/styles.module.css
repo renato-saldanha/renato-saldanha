@@ -57,7 +57,7 @@
 }
 
 .containerImg2 img {
-  height: 275px;
+  height: 425px;
   object-fit: cover;
   border-radius: 5px;
   padding: 1px;
@@ -105,6 +105,10 @@
   .containerImg2 img {
     object-position: 0 -260px;
     padding-right: 10px;
+  }
+
+  .containerImg2 img {
+    height: 375px;
   }
 }
 
@@ -155,19 +159,18 @@
   }
 
   .containerImg1 img {
-    /* justify-self: center; */
-    /* object-fit: unset; */
+    object-fit: unset;
     object-position: 0;
     /* height: 150px; */
-    margin: 0 10%;
+    /* margin: 0 10%; */
   }
 
   .containerImg2 img {
     height: 245px;
     width: 92%;
   }
-  
-.contato {
-  margin: 0 3px;
-}
+
+  .contato {
+    margin: 0 3px;
+  }
 }
