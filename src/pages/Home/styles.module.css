@@ -2,10 +2,14 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;    
+  align-items: center;
   text-align: center;
   margin-top: 150px;
-  line-height: 1.3;
+  line-height: 1.5;
+}
+
+.container * {
+  color: var(--white);
 }
 
 .container h1 {

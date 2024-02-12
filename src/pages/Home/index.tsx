@@ -3,10 +3,9 @@ import styles from './styles.module.css'
 export default function Home() {
   return (
     <div className={styles.container}>
-      <h1> Saudações</h1>
-      <h1>Que bom você aqui!</h1>
-      <p> Seja mais que bem vindo(a) ao meu portifólio! </p>
-      <p>Fique à vontade para navegar e me conhecer um pouco melhor!</p>
+      <h1>Saudações!</h1>
+      <h1>Que bom ter você aqui!</h1>
+      <p>Seja bem-vindo(a) ao meu portfólio, aqui você conhecerá um pouco mais sobre mim e sobre o meu trabalho.</p>
     </div>
   )
 }
