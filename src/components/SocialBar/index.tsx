@@ -4,12 +4,6 @@ import Link from 'next/link';
 
 import { motion } from 'framer-motion'
 
-const transition = {
-  repeat: 999999999,
-  repeatType: "loop",
-  repeatDelay: 7
-}
-
 const animate = {
   rotate: 360,
   scale: 1,
@@ -22,7 +16,12 @@ export default function SocialBar() {
         className={styles.imgInstagram}
         initial={{ scale: .4, decelerate: 3 }}
         animate={animate}
-        transition={transition}>
+        transition={{
+          repeat: 999999999,
+          repeatType: "loop",
+          repeatDelay: 7
+        }
+        }>
         <Link target="_blank" href='https://www.instagram.com/renato.saldanha.1/'><Instagram size={32} /></Link>
       </motion.div>
 
@@ -30,7 +29,12 @@ export default function SocialBar() {
         className={styles.imgLinkedin}
         initial={{ scale: .7 }}
         animate={animate}
-        transition={transition}>
+        transition={{
+          repeat: 999999999,
+          repeatType: "loop",
+          repeatDelay: 7
+        }
+        }>
         <Link target="_blank" href='https://www.linkedin.com/in/renato-saldanha-a318067b/'><Linkedin size={32} /></Link>
       </motion.div>
     </div>
