@@ -25,8 +25,9 @@
 }
 
 .profile img {
+  padding: 1px;
   width: 52px;
-  height: 58px;
+  /* height: 4px; */
   border-radius: 100%;
   border: 1px solid var(--blue-200);
   outline: 2px solid var(--blue-300);

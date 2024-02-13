@@ -2,7 +2,7 @@
   position: fixed;
   top: 260px;
   margin-left: 15px;
-  padding: 5px;
+  padding: 0 3px;
   border-radius: 8px;
   background-color: var(--blue-100);
 }
