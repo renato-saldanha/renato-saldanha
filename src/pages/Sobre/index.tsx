@@ -25,11 +25,9 @@ const galeriaItens = [
     style: styles.containerImg1
   },
   {
-    titulo: `Formado em Análise e Desenvolvimento de Sisitemas em 2018,
-    desde 2013 trabalhando com soluções em TI, conheci o Delphi por um amigo e com isso comecei a estudar Java e Delphi e comecei a trabalhar como suporte técnico em sistemas.
-    Em 2015 dei partida na jornada de desenvolvedor Delphi, passei por algumas empresas onde efetuava a manutenção dos sistemas EPRs existentes utilizando diversas tecnologias que a ferramenta proporciona.
-    Em 2022 decidi iniciar meus estudos em ReactNative e vim desenvolvendo pequenas soluções em empresas parceiras.
-    Em 2023 decici iniciar a vida de Fullstack e iniciei meus estudos em ReactJS e Node e venho prestando serviços autônomos em TI fornecendo pequenas soluções para complementar as necessidades das empresas.`,
+    titulo: `Formado em Análise e Desenvolvimento de Sistemas em 2018, desde 2015 desenvolvendo soluções nas empresas em que passei.
+            Usando as técnologias Delphi, ReactNative e ReactJS, desenvolvo soluções englobando as necessidade das três partes: Desktop, Mobile e Web.
+            Foco em flexibilidade e qualidade na entrega do produto priorizando sempre a satisfação do cliente.`,
     imagem: Img2,
     style: styles.containerImg2
   }
@@ -49,7 +47,7 @@ export default function Sobre() {
 
   return (
     <div className={styles.container}   >
-      <div className={styles.containerViewPort} ref={emblaRef}>
+      <div ref={emblaRef}>
         <div className={styles.containerImagem}>
           {galeriaItens.map((item, i) => (
             <div className={styles.content}
