@@ -1,0 +1,123 @@
+.container * {
+  color: var(--white);
+  text-align: justify;
+}
+
+.container a {
+  text-decoration: underline;
+  color: var(--purple-200);
+}
+
+.containerSobre {
+  display: flex;
+  flex: 1.9;
+  margin-right: 25px;
+  align-items: center;
+}
+
+.containerImagem {
+  flex: 1.9;
+  backface-visibility: hidden;
+  display: flex;
+  touch-action: pan-y;
+  margin-left: calc(1rem * -1);
+}
+
+.content {
+  overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+  line-height: 200%;
+  margin: 100px 0 0 0;
+  flex: 0 0 100%;
+  min-width: 0;
+  padding-left: 1rem;
+  position: relative;
+  padding: 0 35px;
+  height: 485px;
+}
+
+.containerImg1 img {
+  height: 475px;
+  object-fit: none;
+  border-radius: 5px;
+  padding: 1px;
+  border: 2px solid var(--blue-200);
+  object-position: 0 -85px;
+}
+
+.containerImg2 img {
+  height: 475px;
+  object-fit: cover;
+  border-radius: 5px;
+  padding: 1px;
+  border: 2px solid var(--blue-200);
+  object-position: 0 -280px;
+}
+
+.botoesGaleria {
+  margin-top: 2px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dotButton {
+  width: 2.4rem;
+  height: 0.4rem;
+  display: flex;
+  align-items: center;
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+  background-color: var(--white);
+  border-radius: 3px;
+}
+
+.dotButtonSelecionado {
+  background: linear-gradient(45deg, var(--gray-400), var(--gray-300));
+  width: 2.4rem;
+  height: 0.4rem;
+  display: flex;
+  align-items: center;
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+  border-radius: 3px;
+}
+
+@media screen and (min-width: 1085px) {
+  .container * {
+    font-size: 104%;
+  }
+}
+
+@media screen and (max-width: 685px) {
+  .container {
+    padding: 26px 0 0 0;
+  }
+
+  .content {
+    display: grid;
+    flex-direction: column;
+    margin: 15px 0 10px 0;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+
+  .containerSobre {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .containerSobre > * {
+    font-size: 65%;
+    text-align: justify;
+    opacity: 0.9;
+    border-radius: 10px;
+  }
+}

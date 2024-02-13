@@ -19,3 +19,9 @@
 .container p {
   font-size: 22px;
 }
+
+@media screen and (max-width: 685px) {
+  .container {
+    margin: 55px 2px;
+  }
+}

@@ -1,8 +1,8 @@
-import Image from 'next/image'
 import styles from './styles.module.css'
 import Img1 from '../../../public/assets/eu.png'
 import Img2 from '../../../public/assets/parceira.jpeg'
 import Link from 'next/link'
+import { motion } from 'framer-motion'
 
 import { Card, CardContent } from "@/components/ui/card"
 import {
@@ -12,11 +12,10 @@ import {
   CarouselNext,
   CarouselPrevious
 } from "@/components/ui/carousel"
-import { EmblaOptionsType } from 'embla-carousel'
-import useEmblaCarousel from 'embla-carousel-react'
-import { DotButton, useDotButton } from '../../components/DotButton'
+import GaleriaFotos from '@/components/GaleriaFotos'
+import { GaleriaItem, GaleriaProps } from '@/uteis/interfaces'
 
-const galeriaItens = [
+const galeriaItens: GaleriaItem[] = [
   {
     titulo: `Natural de Cuiabá-MT, cresci em um bairro periférico onde conheci o skate no início da adolescência e sempre envolvido com jogos de console e fliperama,
             aos 15 anos conheci a lanhouse e os jogos eletrônicos e fiquei encantado, com isso fui aprendendo mais sobre os componentes internos, seus funcionamentos e como identificar prévios problemas.
@@ -33,50 +32,30 @@ const galeriaItens = [
   }
 ]
 
-
 export default function Sobre() {
-  const options: EmblaOptionsType = {
-    align: 'start',
-    dragFree: true,
-    containScroll: "trimSnaps"
-  }
-
-  const [emblaRef, emblaApi] = useEmblaCarousel(options)
-
-  const { selectedIndex, scrollSnaps, onDotButtonClick } = useDotButton(emblaApi)
-
   return (
-    <div className={styles.container}   >
-      <div ref={emblaRef}>
-        <div className={styles.containerImagem}>
-          {galeriaItens.map((item, i) => (
-            <div className={styles.content}
-              key={i}>
-              <div className={styles.containerSobre}>
-                <p>
-                  {item.titulo}
-                </p>
-              </div>
-              <div className={item.style}>
-                <Image alt={`Img${i + 1}`} src={item.imagem} />
-              </div>
-            </div>
-          ))}
-        </div>
-
-        <div className={styles.botoesGaleria} >
-          {scrollSnaps.map((_, i) => (
-            <DotButton
-              key={i}
-              onClick={() => onDotButtonClick(i)}
-              className={selectedIndex === i ? styles.dotButtonSelecionado : styles.dotButton} />
-          ))}
-        </div>
-
-        <p className={styles.contato}><br /> Estou sempre aberto a novas oportunidades e desafios, entre em <Link href="/Contato">Contato</Link> comigo!</p>
+    <motion.div
+      initial="hidden"
+      animate="visible"
+      variants={{
+        hidden: {
+          x: -350,
+          opacity: 0
+        },
+        visible: {
+          x: 0,
+          opacity: 1,
+          transition: {
+            delay: .4
+          }
+        }
+      }}>
+      <div className={styles.container}>
+        <GaleriaFotos itens={galeriaItens} />
+        <p className={styles.contato}>
+          <br /> Estou sempre aberto a novas oportunidades e desafios, entre em <Link href="/Contato">Contato</Link> comigo!
+        </p>
       </div>
-
-
-    </div>
+    </motion.div>
   )
 }

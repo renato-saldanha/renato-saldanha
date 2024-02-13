@@ -1,8 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
 :root {
   --max-width: 1100px;
@@ -11,23 +10,27 @@
   --background-end-rgb: 255, 255, 255;
 
   --white: white;
-  --purple-100: #c777ff;
-  --purple-200: #ad5ee8;
-  --purple-300: #9445d0
-  --purple-400: #7a2cb9;
-  --purple-600: #6013a1;
+  --blue-100: #00b4d8;
+  --blue-200: #0096c7;
+  --blue-300: #0077b6;
+  --blue-400: #023e8a;
+  --blue-600: #03045e;
 
-  --blue-200: #1386e4fe;
+  --yellow-400:#eaea00;
 
-  --blue-600:#2b1b9a;
+  --texto : #060619;
+
+  --purple-200: #c777ff;
+
+  --purple-600:#7d0fcb;
 
 
   --gray-100:#a7a7a2;
   --gray-300:#74746b;
   --gray-400:#616161;
   --gray-600: #40403c;
-  height: 100vh;
-  
+
+  height: 100vh;  
 }
 
 * {
@@ -44,7 +47,7 @@ body {
 }
 
 body {
-  background: linear-gradient(111deg, var(--purple-200),var(--purple-600)); 
+  background: linear-gradient(111deg, var(--blue-200),var(--blue-600)); 
 }
 
 a {
@@ -59,8 +62,15 @@ p {
   font-weight: bold;
 }
 
+@media screen and (min-width: 860px){
+  html,
+  body {
+    overflow-y: hidden;
+  }
+}
+
 @media screen and (max-width: 685px) {
   :root {
-    height: calc(100vh + 430px);
+    height: calc(100vh + 230px);
   }
 }

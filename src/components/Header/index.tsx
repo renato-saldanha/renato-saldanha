@@ -1,9 +1,9 @@
 import Link from 'next/link'
-import styles from './styles.module.css'
 import Image from 'next/image'
-import imgProfile from '../../../public/assets/profile.png';
 import { useRouter } from 'next/router';
 import Head from 'next/head';
+import styles from './styles.module.css'
+import imgProfile from '../../../public/assets/profile.png';
 
 export default function Header() {
   const history = useRouter()

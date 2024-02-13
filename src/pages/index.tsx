@@ -12,7 +12,7 @@ export default function App() {
       <Head>
         <title>Home</title>
       </Head>
-      <main className={`${styles.main} ${inter.className}`}>
+      <main >
         <Home />
       </main>
     </>
