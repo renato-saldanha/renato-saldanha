@@ -2,6 +2,7 @@ import { FormEvent, useState } from 'react'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
 import { BadgeCheck } from 'lucide-react'
+import emailjs from '@emailjs/browser'
 
 import styles from './styles.module.css'
 
@@ -13,19 +14,43 @@ export default function Contato() {
 
   function handleSubmit(e: FormEvent) {
     e.preventDefault();
+
+    if (!nome || !email || !mensagem) {
+      alert("Insira todas as informações para enviar o email.")
+    }
+
+    const contato = {
+      nome,
+      email,
+      mensagem
+    }
+
+    emailjs.send(
+      "service_pkx86ls",
+      "template_o0ckaid",
+      contato, 
+      {
+        publicKey: "ne0bpE6PGjvhdKtUZ"
+      }
+    ).then(
+      (response) => {
+        setEmailEnviado(true)
+        limparCampos()
+      },
+      (err) => {
+        alert(err)
+      }
+    )
   }
 
-function handleClick() {
-
-  setEmailEnviado(true)
-
-  setTimeout(() => {
-    setEmailEnviado(false)
-    setMensagem("")
-    setNome("")
-    setEmail("")
-  }, 15000);
-}
+  function limparCampos() {
+    setTimeout(() => {
+      setEmailEnviado(false)
+      setMensagem("")
+      setNome("")
+      setEmail("")
+    }, 5000);
+  }
 
   return (
     <motion.div className={styles.container}
@@ -44,7 +69,7 @@ function handleClick() {
           }
         }
       }}>
-      <form >
+      <form onSubmit={handleSubmit}>
         <h2>Entre em contato comigo por email</h2>
         <div className={styles.content}>
           <div className={styles.containerDados}>
@@ -60,7 +85,7 @@ function handleClick() {
           </div>
         </div>
         <div className={styles.containerBotao} >
-          {emailEnviado && <BadgeCheck />} <input type='button' value={emailEnviado ? "Email enviado!" : "Enviar email"} onClick={handleClick} />
+          {emailEnviado && <BadgeCheck />} <input type='submit' value={emailEnviado ? "Email enviado!" : "Enviar email"} />
         </div>
       </form>
     </motion.div>
