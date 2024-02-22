@@ -24,9 +24,9 @@ const galeriaItens: GaleriaItem[] = [
     style: styles.containerImg1
   },
   {
-    titulo: `Formado em Análise e Desenvolvimento de Sistemas em 2018, desde 2015 desenvolvendo soluções nas empresas em que passei.
-            Usando as técnologias Delphi, ReactNative e ReactJS, desenvolvo soluções englobando as necessidade das três partes: Desktop, Mobile e Web.
-            Foco em flexibilidade e qualidade na entrega do produto priorizando sempre a satisfação do cliente.`,
+    titulo: `Formado em Análise e Desenvolvimento de Sistemas em 2018, desde 2015 desenvolvendo soluções em Delphi pelas empresas em que passei. 
+            Com Delphi, ReactNative e ReactJS, desenvolvo soluções englobando as necessidade das três partes: 
+            Desktop, Mobile e Web. Foco em flexibilidade e qualidade na entrega do produto priorizando sempre a satisfação do cliente.`,
     imagem: Img2,
     style: styles.containerImg2
   }
