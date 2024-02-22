@@ -17,6 +17,7 @@ export default function Contato() {
 
     if (!nome || !email || !mensagem) {
       alert("Insira todas as informações para enviar o email.")
+      return
     }
 
     const contato = {
