@@ -1,5 +1,6 @@
 .container {
   margin-left: 120px;
+  margin-top: 75px;
 }
 
 .container * {
@@ -8,7 +9,7 @@
 }
 
 .contato {
-  margin: 0 17px;
+  margin: 15px 0 0 17px;
 }
 
 .container a {
@@ -25,7 +26,6 @@
 }
 
 .containerImg1 img {
-  height: 475px;
   object-fit: none;
   border-radius: 5px;
   padding: 1px;
@@ -34,7 +34,6 @@
 }
 
 .containerImg2 img {
-  height: 475px;
   object-fit: cover;
   border-radius: 5px;
   padding: 1px;
@@ -52,6 +51,7 @@
   .container {
     padding: 26px 0 0 0;
     margin: 0;
+    margin-bottom: 7px;
   }
 
   .contato {
@@ -73,5 +73,9 @@
 
   .containerImg2 img {
     object-position: 0;
+  }
+
+  .contato {
+    
   }
 }

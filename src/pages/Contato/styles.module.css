@@ -6,6 +6,7 @@
   background-color: var(--white);
   padding: 90px 0;
   width: 100%;
+  height: calc(100vh - 293px);
 }
 
 .content {
@@ -87,4 +88,36 @@
 
 .containerBotao input:hover {
   cursor: pointer;
+}
+
+@media screen and (max-width: 685px) {
+  .container {
+    padding: 0;
+    height: calc(100vh - 393px);;
+    /* padding-top: 45px; */
+  }
+
+  .container * {
+    width: auto;
+    flex-direction: column;
+  }
+
+  .container h2,
+  .containerDados input,
+  .containerDados label,
+  .containerMensagem textarea,
+  .containerMensagem label,
+  .containerBotao input {
+    font-size: 75%;
+  }
+
+  .containerMensagem {
+    padding: 2px 0;
+    margin: 0;
+  }
+
+  .containerMensagem textarea {
+    height: 90px;
+    width: 100%;
+  }
 }

@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import SocialBar from "@/components/SocialBar";
 import "@/styles/globals.css";
@@ -8,6 +9,7 @@ export default function App({ Component, pageProps }: AppProps) {
     <>
     <Header/>
     <Component {...pageProps} />
+    <Footer/>
     <SocialBar/>
     </>
   )

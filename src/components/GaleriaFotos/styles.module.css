@@ -28,13 +28,12 @@
   display: flex;
   justify-content: center;
   line-height: 200%;
-  margin: 100px 0 0 0;
   flex: 0 0 100%;
   min-width: 0;
   padding-left: 1rem;
   position: relative;
   padding: 0 35px;
-  height: 485px;
+  height: 395px;
 }
 
 .containerImg1 img {
