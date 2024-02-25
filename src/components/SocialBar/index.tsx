@@ -13,6 +13,19 @@ export default function SocialBar() {
   return (
     <div className={styles.containerSocialBar}>
       <motion.div
+        className={styles.imgLinkedin}
+        initial={{ scale: .7 }}
+        animate={animate}
+        transition={{
+          repeat: 999999999,
+          repeatType: "loop",
+          repeatDelay: 7
+        }
+        }>
+        <Link target="_blank" href='https://www.linkedin.com/in/renato-saldanha-a318067b/'><Linkedin size={32} /></Link>
+      </motion.div>
+
+      <motion.div
         className={styles.imgInstagram}
         initial={{ scale: .4, decelerate: 3 }}
         animate={animate}
@@ -25,18 +38,6 @@ export default function SocialBar() {
         <Link target="_blank" href='https://www.instagram.com/renato.saldanha.1/'><Instagram size={32} /></Link>
       </motion.div>
 
-      <motion.div
-        className={styles.imgLinkedin}
-        initial={{ scale: .7 }}
-        animate={animate}
-        transition={{
-          repeat: 999999999,
-          repeatType: "loop",
-          repeatDelay: 7
-        }
-        }>
-        <Link target="_blank" href='https://www.linkedin.com/in/renato-saldanha-a318067b/'><Linkedin size={32} /></Link>
-      </motion.div>
     </div>
   )
 }
