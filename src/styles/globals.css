@@ -74,7 +74,7 @@ p {
 
 @media screen and (max-width: 685px) {
   :root {
-    height: calc(100vh - 109px);
+    /* height: calc(100vh - 10px); */
   }
 }
 

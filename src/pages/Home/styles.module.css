@@ -6,6 +6,7 @@
   text-align: center;
   margin-top: 150px;
   line-height: 1.5;
+  height: calc(100vh - 486px);
 }
 
 .container * {

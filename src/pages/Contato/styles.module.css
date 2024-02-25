@@ -60,7 +60,7 @@
 .containerMensagem textarea {
   padding: 2px;
   resize: none;
-  height: 160px;
+  flex: 1;
   width: 470px;
 }
 
@@ -93,8 +93,7 @@
 @media screen and (max-width: 685px) {
   .container {
     padding: 0;
-    height: calc(100vh - 393px);;
-    /* padding-top: 45px; */
+    height: calc(100vh - 376px);
   }
 
   .container * {
