@@ -49,13 +49,14 @@ export default function Sobre() {
             delay: .4
           }
         }
-      }}>
-      <div className={styles.container}>
-        <GaleriaFotos itens={galeriaItens} />
-        <p className={styles.contato}>
-          <br /> Estou sempre aberto a novas oportunidades e desafios, entre em <Link href="/Contato">Contato</Link> comigo!
-        </p>
-      </div>
+      }}
+      className={styles.container}>
+
+      <GaleriaFotos itens={galeriaItens} />
+      <p className={styles.contato}>
+        <br /> Estou sempre aberto a novas oportunidades e desafios, entre em <Link href="/Contato">Contato</Link> comigo!
+      </p>
+
     </motion.div>
   )
 }

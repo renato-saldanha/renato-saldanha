@@ -26,11 +26,11 @@
 }
 
 .containerImg1 img {
-  object-fit: none;
+  object-fit: cover;
   border-radius: 5px;
   padding: 1px;
   border: 2px solid var(--blue-200);
-  object-position: -90px -85px;
+  
 }
 
 .containerImg2 img {
@@ -44,6 +44,12 @@
 @media screen and (min-width: 1085px) {
   .container * {
     font-size: 104%;
+  }
+}
+
+@media screen and (max-width: 1485px) {
+  .containerImg2 img {
+    object-position: 0 calc(2vh - 19px);
   }
 }
 
