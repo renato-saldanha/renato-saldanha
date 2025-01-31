@@ -1,16 +1,15 @@
 .containerFooter {
   position: absolute;
-  /* height: 202px; */
+  height: 180px;
   bottom: 0%;
   width: 100%;
-  padding: 37px 185px;
+  padding: 17px 165px;
   background-color: var(--white);
-  /* background: linear-gradient(111deg, var(--white),var(--blue-200));  */
-  /* border: 2px solid var(--blue-200); */
+  
 }
 
 .containerFooter hr {
-  margin: 15px 0;
+  margin: 10px 0;
   border-top: 1px solid var(--blue-300);
 }
 
@@ -27,7 +26,7 @@
 
 .descricao h1 {
   font-size: 22px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .mediaSocial {
@@ -47,7 +46,7 @@
   .containerFooter {
     position: relative;
     width: auto;
-    /* height: 202px; */
+    height: 50vh;
     bottom: 0;
     padding: 0;
   }

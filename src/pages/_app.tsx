@@ -6,11 +6,11 @@ import type { AppProps } from "next/app";
 
 export default function App({ Component, pageProps }: AppProps) {
   return(
-    <>
+    <section>
     <Header/>
     <Component {...pageProps} />
     <Footer/>
     <SocialBar/>
-    </>
+    </section>
   )
 }
