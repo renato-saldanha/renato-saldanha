@@ -22,14 +22,14 @@ const GaleriaFotos: React.FC<GaleriaProps> = ({itens} : GaleriaProps) => {
     animate="visible"
     variants={{
       hidden: {
-        x: -350,
+        x: -150,
         opacity: 0
       },
       visible: {
-        x: 0,
+        x: 10,
         opacity: 1,
         transition: {
-          delay: .4
+          delay: .5
         }
       }
     }}
