@@ -1,9 +1,9 @@
 .containerFooter {
   position: absolute;
-  height: 180px;
+  height: 10rem;
   bottom: 0%;
   width: 100%;
-  padding: 17px 165px;
+  padding: 12px 165px;
   background-color: var(--white);
   
 }

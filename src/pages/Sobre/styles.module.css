@@ -1,11 +1,12 @@
 .container {
   margin-left: 120px;
-  margin-top: 75px;
+  margin-top: 75px;  
 }
 
 .container * {
   color: var(--white);
   text-align: justify;
+  font-size: 15px;
 }
 
 .contato {
@@ -39,11 +40,10 @@
   border: 2px solid var(--blue-200);  
 }
 
-@media screen and (min-width: 1085px) {
-  .container * {
-    font-size: 104%;
-  }
+.containerSobre {
+  padding-left: 4px;
 }
+
 
 @media screen and (max-width: 1485px) {
   .containerImg2 img {
