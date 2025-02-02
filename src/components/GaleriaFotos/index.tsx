@@ -21,13 +21,22 @@ const GaleriaFotos: React.FC<GaleriaProps> = ({itens} : GaleriaProps) => {
         <div className={styles.embla__container}>
           {itens.map((item, i) => (          
             <div className={styles.embla__slide} key={i}>
-              <div className={styles.embla__slide__number}>
-                <Image 
-                  
-                  fill={true}
-                  sizes="(min-width: 700px) 941px, (min-width: 440px) 40vw, calc(5vw + 155px)"
-                  alt={`Img${i + 1}`} 
-                  src={item.imagem} />
+              <div className={styles.containerPainel}>
+                {item.titulo && (
+                  <div className={styles.containerSobre}>
+                    <p>
+                      {item.titulo}
+                    </p>
+                  </div>)
+                }
+                <div className={item ? item.style : styles.embla__slide__number}>
+                  <Image                   
+                    width={1500}
+                    height={1500}           
+                    sizes="(min-width: 940px) 784px, (min-width: 700px) 85.45vw, 100vw" 
+                    alt={`Img${i + 1}`} 
+                    src={item.imagem} />
+                </div>
               </div>
             </div>
           ))}
@@ -40,9 +49,7 @@ const GaleriaFotos: React.FC<GaleriaProps> = ({itens} : GaleriaProps) => {
             <DotButton
               key={i}
               onClick={() => onDotButtonClick(i)}
-              className={styles.embla__dot.concat(
-                i === selectedIndex ? ' embla__dot--selected' : ''
-              )}
+              className={i === selectedIndex ? styles.embla__dot : styles.embla__dot__selected}
             />
           ))}
         </div>

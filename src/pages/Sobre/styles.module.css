@@ -29,16 +29,14 @@
   object-fit: cover;
   border-radius: 5px;
   padding: 1px;
-  border: 2px solid var(--blue-200);
-  
+  border: 2px solid var(--blue-200);  
 }
 
 .containerImg2 img {
   object-fit: cover;
   border-radius: 5px;
   padding: 1px;
-  border: 2px solid var(--blue-200);
-  object-position: 0 -120px;
+  border: 2px solid var(--blue-200);  
 }
 
 @media screen and (min-width: 1085px) {

@@ -1,5 +1,5 @@
 import React, {
-  PropsWithChildren,
+  ComponentPropsWithRef,
   useCallback,
   useEffect,
   useState
@@ -37,9 +37,7 @@ export const useDotButton = (emblaApi: EmblaCarouselType | undefined): UseDotBut
 
     onInit(emblaApi)
     onSelect(emblaApi)
-    emblaApi.on('reInit', onInit)
-    emblaApi.on('reInit', onSelect)
-    emblaApi.on('select', onSelect)
+    emblaApi.on('reInit', onInit).on('reInit', onSelect).on('select', onSelect)
   }, [emblaApi, onInit, onSelect])
 
   return {
@@ -49,12 +47,7 @@ export const useDotButton = (emblaApi: EmblaCarouselType | undefined): UseDotBut
   }
 }
 
-type PropType = PropsWithChildren<
-  React.DetailedHTMLProps<
-    React.ButtonHTMLAttributes<HTMLButtonElement>,
-    HTMLButtonElement
-  >
->
+type PropType = ComponentPropsWithRef<'button'>
 
 export const DotButton: React.FC<PropType> = (props) => {
   const { children, ...restProps } = props
