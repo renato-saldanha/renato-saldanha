@@ -26,6 +26,7 @@
 }
 
 .containerImg1 img {
+  
   object-fit: cover;
   border-radius: 5px;
   padding: 1px;
