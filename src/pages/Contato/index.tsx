@@ -71,7 +71,7 @@ export default function Contato() {
         }
       }}>
       <form onSubmit={handleSubmit}>
-        <h2>Entre em contato comigo por email</h2>
+        <h2>Entre em contato comigo!</h2>
         <div className={styles.content}>
           <div className={styles.containerDados}>
             <label>Nome</label>

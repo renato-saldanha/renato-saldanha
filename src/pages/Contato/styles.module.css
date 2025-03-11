@@ -98,7 +98,7 @@
 
   .container * {
     width: auto;
-    flex-direction: column;
+    flex-direction: column;    
   }
 
   .container h2,
@@ -118,5 +118,17 @@
   .containerMensagem textarea {
     height: 90px;
     width: 100%;
+  }
+  .containerDados,
+  .containerMensagem,
+  .containerBotao,
+  .container h2 {
+    
+  }
+
+  
+  .containerDados input,
+  .containerMensagem input{
+    width: 300px;
   }
 }
