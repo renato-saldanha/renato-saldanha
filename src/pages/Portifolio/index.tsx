@@ -1,6 +1,6 @@
 import styles from './styles.module.css'
 
-import { GaleriaItem } from '@/uteis/interfaces'
+import { GaleriaItem } from '@/types'
 import GaleriaFotos from '@/components/GaleriaFotos'
 
 

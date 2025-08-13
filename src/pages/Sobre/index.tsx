@@ -13,7 +13,7 @@ import {
   CarouselPrevious
 } from "@/components/ui/carousel"
 import GaleriaFotos from '@/components/GaleriaFotos'
-import { GaleriaItem, GaleriaProps } from '@/uteis/interfaces'
+import { GaleriaItem, GaleriaProps } from '@/types'
 
 const galeriaItens: GaleriaItem[] = [
   {

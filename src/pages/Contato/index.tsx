@@ -1,8 +1,8 @@
 import { FormEvent, useState } from 'react'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
-import { BadgeCheck } from 'lucide-react'
-import emailjs from '@emailjs/browser'
+import { BadgeCheck, AlertCircle } from 'lucide-react'
+import { useEmailJS } from '@/hooks/useEmailJS'
 
 import styles from './styles.module.css'
 
@@ -10,15 +10,11 @@ export default function Contato() {
   const [nome, setNome] = useState("")
   const [email, setEmail] = useState("")
   const [mensagem, setMensagem] = useState("")
-  const [emailEnviado, setEmailEnviado] = useState(false)
+  
+  const { sendEmail, isLoading, isSuccess, error, reset } = useEmailJS()
 
   function handleSubmit(e: FormEvent) {
     e.preventDefault();
-
-    if (!nome || !email || !mensagem) {
-      alert("Insira todas as informações para enviar o email.")
-      return
-    }
 
     const contato = {
       nome,
@@ -26,27 +22,16 @@ export default function Contato() {
       mensagem
     }
 
-    emailjs.send(
-      "service_pkx86ls",
-      "template_o0ckaid",
-      contato, 
-      {
-        publicKey: "ne0bpE6PGjvhdKtUZ"
-      }
-    ).then(
-      (response) => {
-        setEmailEnviado(true)
+    sendEmail(contato).then(() => {
+      if (isSuccess) {
         limparCampos()
-      },
-      (err) => {
-        alert(err)
       }
-    )
+    })
   }
 
   function limparCampos() {
     setTimeout(() => {
-      setEmailEnviado(false)
+      reset()
       setMensagem("")
       setNome("")
       setEmail("")
@@ -70,23 +55,57 @@ export default function Contato() {
           }
         }
       }}>
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} className={styles.form}>
         <h2>Entre em contato comigo!</h2>
         <div className={styles.content}>
           <div className={styles.containerDados}>
             <label>Nome</label>
-            <input type='text' name={nome} value={nome} onChange={e => setNome(e.target.value)} />
+            <input 
+                type='text' 
+                name="nome" 
+                value={nome} 
+                onChange={e => setNome(e.target.value)}
+                aria-label="Nome completo"
+                aria-required="true"
+                required
+              />
             <label>Email</label>
-            <input type='email' name={email} value={email} onChange={e => setEmail(e.target.value)} />
+            <input 
+                type='email' 
+                name="email" 
+                value={email} 
+                onChange={e => setEmail(e.target.value)}
+                aria-label="Endereço de email"
+                aria-required="true"
+                required
+              />
           </div>
 
           <div className={styles.containerMensagem}>
             <label>Mensagem</label>
-            <textarea name={mensagem} value={mensagem} onChange={e => setMensagem(e.target.value)} />
+            <textarea 
+                name="mensagem" 
+                value={mensagem} 
+                onChange={e => setMensagem(e.target.value)}
+                aria-label="Sua mensagem"
+                aria-required="true"
+                required
+              />
           </div>
         </div>
+        {error && (
+          <div className={styles.error}>
+            <AlertCircle size={16} />
+            <span>{error}</span>
+          </div>
+        )}
         <div className={styles.containerBotao} >
-          {emailEnviado && <BadgeCheck />} <input type='submit' value={emailEnviado ? "Email enviado!" : "Enviar email"} />
+          {isSuccess && <BadgeCheck />} 
+          <input 
+            type='submit' 
+            value={isLoading ? "Enviando..." : isSuccess ? "Email enviado!" : "Enviar email"} 
+            disabled={isLoading}
+          />
         </div>
       </form>
     </motion.div>

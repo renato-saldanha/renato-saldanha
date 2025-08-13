@@ -6,11 +6,13 @@ import Image from 'next/image'
 import { motion } from 'framer-motion'
 
 import styles from './styles.module.css'
-import {  GaleriaProps } from '@/uteis/interfaces'
+import {  GaleriaProps } from '@/types'
 
 const GaleriaFotos: React.FC<GaleriaProps> = ({itens} : GaleriaProps) => {
   const options: EmblaOptionsType = {
-    align: 'start'
+    align: 'start',
+    loop: true,
+    skipSnaps: false
   }
 
   const [emblaRef, emblaApi] = useEmblaCarousel(options)
@@ -46,15 +48,24 @@ const GaleriaFotos: React.FC<GaleriaProps> = ({itens} : GaleriaProps) => {
                       <p>
                         {item.titulo}
                       </p>
-                    </div>)
-                  }
+                    </div>
+                  )}
                   <div className={item ? item.style : styles.embla__slide__number}>
                     <Image                   
-                      width={1500}
-                      height={1500}           
-                      sizes="(min-width: 940px) 784px, (min-width: 700px) 85.45vw, 100vw" 
-                      alt={`Img${i + 1}`} 
-                      src={item.imagem} />
+                      width={800}
+                      height={600}           
+                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 40vw" 
+                      alt={`Imagem ${i + 1}`} 
+                      src={item.imagem}
+                      style={{
+                        width: '100%',
+                        height: 'auto',
+                        maxHeight: '600px',
+                        objectFit: 'cover',
+                        borderRadius: '8px'
+                      }}
+                      priority={i === 0}
+                    />
                   </div>
                 </div>
               </div>
@@ -68,7 +79,7 @@ const GaleriaFotos: React.FC<GaleriaProps> = ({itens} : GaleriaProps) => {
               <DotButton
                 key={i}
                 onClick={() => onDotButtonClick(i)}
-                className={i === selectedIndex ? styles.embla__dot : styles.embla__dot__selected}
+                className={i === selectedIndex ? styles.embla__dot__selected : styles.embla__dot}
               />
             ))}
           </div>
