@@ -8,7 +8,7 @@ export default function Footer() {
       <div className={styles.contentTopo}>
         <div className={styles.descricao}>
           <h1>Renato Saldanha</h1>
-          <p>Desenvolvedor com foco em Frontend, desenvolvendo soluções multiplataforma que facilitam seu dia a dia.</p>
+          <p>Desenvolvendo soluções multiplataforma que facilitam a viver melhor.</p>
         </div>
         <div className={styles.mediaSocial}>
         <Link target="_blank" href='https://www.linkedin.com/in/renato-saldanha-a318067b/'><Linkedin size={32} /></Link>
