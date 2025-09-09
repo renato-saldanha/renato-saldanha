@@ -1,16 +1,41 @@
-## Hi there 👋
+# 👋 Olá, eu sou o Renato Saldanha
 
-<!--
-**renato-saldanha/renato-saldanha** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+💻 Desenvolvedor apaixonado por tecnologia desde a adolescência. Natural de **Cuiabá - MT**, comecei minha jornada consertando computadores e notebooks, até abrir minha própria empresa de manutenção aos 18 anos.  
+Com o tempo, direcionei meu foco para o **desenvolvimento de sistemas**, área em que atuo desde 2015.
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🚀 Sobre mim
+- 🎓 Formado em **Análise e Desenvolvimento de Sistemas** (2018 - FATEC/Senai)  
+- 💼 Atualmente atuo como **Desenvolvedor Delphi ** e **Fullstack NextJS/Node/Python**
+- 🌍 Experiência em projetos para **gestão pública, farmácias, supermercados e imobiliárias**  
+- 📌 Foco em **qualidade, flexibilidade e satisfação do cliente**  
+- 🎮 Nas horas vagas, sou entusiasta de **skate, jogos e cultura gamer**  
+
+---
+
+## 🛠️ Tecnologias & Ferramentas
+- **Desktop:** Delphi (7 → RAD Alexandria), Firebird, PostgreSQL, MySQL  
+- **Web & Mobile:** ReactJS, NextJS, React Native, Node.js, Express  
+- **Princípios:** SOLID, Clean Code, POO  
+- **Outros:** ReportBuilder, Stored Procedures, integrações de sistemas  
+
+---
+
+## 📊 Experiência Profissional
+- **MCN Sistemas** – Programador Delphi (2017–2018)  
+- **Bit Line Informática** – Programador Delphi (2018–2020)  
+- **Vector Informática** – Programador Delphi & React Native (2021–2022)  
+- **Fontdata Tecnologia** – Programador Delphi (2023)  
+- **Duralex Sistemas** – Desenvolvedor Delphi Sênior (Atual)  
+
+---
+
+## 🌐 Onde me encontrar
+- 📌 [Portfólio](https://renatosaldanha.com.br/)  
+- 💼 [LinkedIn](https://www.linkedin.com/in/renato-saldanha-a318067b/)  
+- 🖥️ [GitHub](https://github.com/renato-saldanha)  
+
+---
+
+⭐ Sempre aberto a novos desafios e colaborações!
