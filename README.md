@@ -15,13 +15,13 @@ Com o tempo, direcionei meu foco para o **desenvolvimento de sistemas**, área e
 ---
 
 ## 🛠️ Tecnologias & Ferramentas
-- **Desktop:** Delphi (7 → RAD Alexandria), Firebird, PostgreSQL, MySQL  
+- **Desktop/Backend:** Delphi (7 → RAD Alexandria)  
 - **Web & Mobile:** ReactJS, NextJS, React Native
 - **Backend:** Python, Node.js, Express, Knex, SQLAlchemy
 - **Banco de Dados:** Firebase, Firebird, MySQL, SQLServer e Postgres
-- **Princípios:** SOLID, Clean Code, POO  
+- **Princípios:** SOLID, Clean Code, POO, JSON, API, ACBr, 
 - **Outros:** ReportBuilder, Stored Procedures, integrações de sistemas  
-- **Familiaridades com metodologias:** Scrum e Kamban
+- **Familiaridade com metodologias:** Scrum e Kamban
 ---
 
 ## 📊 Experiência Profissional
