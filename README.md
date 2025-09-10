@@ -7,7 +7,7 @@ Com o tempo, direcionei meu foco para o **desenvolvimento de sistemas**, área e
 
 ## 🚀 Sobre mim
 - 🎓 Formado em **Análise e Desenvolvimento de Sistemas** (2018 - FATEC/Senai)  
-- 💼 Atualmente atuo como **Desenvolvedor Delphi ** e **Fullstack NextJS/Node/Python**
+- 💼 Atualmente atuo como **Desenvolvedor Delphi** e **Fullstack NextJS/Node/Python**
 - 🌍 Experiência em projetos para **gestão pública, farmácias, supermercados e imobiliárias**  
 - 📌 Foco em **qualidade, flexibilidade e satisfação do cliente**  
 - 🎮 Nas horas vagas, sou entusiasta de **skate, jogos e cultura gamer**  
