@@ -33,8 +33,7 @@ Com o tempo, direcionei meu foco para o **desenvolvimento de sistemas**, área e
 
 ## 🌐 Onde me encontrar
 - 📌 [Portfólio](https://renatosaldanha.com.br/)  
-- 💼 [LinkedIn](https://www.linkedin.com/in/renato-saldanha-a318067b/)  
-- 🖥️ [GitHub](https://github.com/renato-saldanha)  
+- 💼 [LinkedIn](https://www.linkedin.com/in/renato-saldanha-a318067b/) 
 
 ---
 
