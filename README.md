@@ -23,11 +23,11 @@ Com o tempo, direcionei meu foco para o **desenvolvimento de sistemas**, área e
 ---
 
 ## 📊 Experiência Profissional
-- **MCN Sistemas** – Programador Delphi (2017–2018)  
-- **Bit Line Informática** – Programador Delphi (2018–2020)  
-- **Vector Informática** – Programador Delphi & React Native (2021–2022)  
-- **Fontdata Tecnologia** – Programador Delphi (2023)  
-- **Duralex Sistemas** – Desenvolvedor Delphi Sênior (Atual)  
+- **MCN Sistemas** – Desenvolvedor Delphi (2017–2018)  
+- **Bit Line Informática** – Desenvolvedor Delphi (2018–2020)  
+- **Vector Informática** – Desenvolvedor Delphi & React Native (2021–2022)  
+- **Fontdata Tecnologia** – Desenvolvedor Delphi (2023)  
+- **Duralex Sistemas** – Desenvolvedor Delphi (Atual)  
 
 ---
 
