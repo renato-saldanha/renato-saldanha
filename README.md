@@ -10,7 +10,8 @@ Com o tempo, direcionei meu foco para o **desenvolvimento de sistemas**, área e
 - 💼  **Dev Delphi** e **Fullstack NextJS/Node/Python**
 - 🌍 Experiência em projetos para **gestão pública, farmácias, supermercados e imobiliárias**  
 - 📌 Foco em **qualidade e flexibilidade**  
-- 🎮 Nas horas vagas, sou entusiasta de **skate, jogos e cultura gamer**  
+- 🎮 Nas horas vagas, sou entusiasta de **skate, jogos e cultura gamer**
+- 🧠 Utilizador e praticante de agente IA.
 
 ---
 
@@ -22,6 +23,7 @@ Com o tempo, direcionei meu foco para o **desenvolvimento de sistemas**, área e
 - **Princípios:** SOLID, Clean Code, POO, JSON, API, ACBr, 
 - **Outros:** ReportBuilder, Stored Procedures, integrações de sistemas  
 - **Familiaridade com metodologias:** Scrum e Kamban
+
 ---
 
 ## 📊 Experiência Profissional
