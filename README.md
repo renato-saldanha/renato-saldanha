@@ -1,12 +1,11 @@
 # 👦🏻 Renato Saldanha
 
-##`Desenvolvedor Fullstack`##
-
+## `Desenvolvedor Fullstack`
 
 <img 
     align="left" 
-    alt="JavaScript" 
-    title="JavaScript"
+    alt="radstudio" 
+    title="radstudio"
     width="30px" 
     style="padding-right: 10px;" 
     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/radstudio/radstudio-plain.svg"
@@ -14,8 +13,8 @@
 
 <img  
     align="left" 
-    alt="JavaScript" 
-    title="JavaScript"
+    alt="react" 
+    title="react"
     width="30px" 
     style="padding-right: 10px;" 
     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" 
@@ -24,8 +23,8 @@
 
 <img  
     align="left" 
-    alt="JavaScript" 
-    title="JavaScript"
+    alt="nodejs" 
+    title="nodejs"
     width="30px" 
     style="padding-right: 10px;" 
     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" 
@@ -34,8 +33,8 @@
 
 <img   
     align="left" 
-    alt="JavaScript" 
-    title="JavaScript"
+    alt="nextjs" 
+    title="nextjs"
     width="33px" 
     style="padding-right: 10px;" 
     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-line-wordmark.svg" 
@@ -53,8 +52,8 @@
 
 <img 
     align="left" 
-    alt="JavaScript" 
-    title="JavaScript"
+    alt="typescript" 
+    title="typescript"
     width="30px" 
     style="padding-right: 10px;" 
     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" 
@@ -62,8 +61,8 @@
 
 <img 
     align="left" 
-    alt="JavaScript" 
-    title="JavaScript"
+    alt="python" 
+    title="python"
     width="30px" 
     style="padding-right: 10px;" 
     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" 
@@ -72,8 +71,8 @@
 
 <img 
     align="left" 
-    alt="JavaScript" 
-    title="JavaScript"
+    alt="django" 
+    title="django"
     width="30px" 
     style="padding-right: 10px;" 
     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain.svg" 
@@ -81,6 +80,8 @@
 
 <br/>
 <br/>
+<br/>
+
 
 
 💻 Apaixonado por tecnologia desde a adolescência. Natural de **Cuiabá - MT**, comecei minha jornada consertando computadores e notebooks, até abrir minha própria empresa de manutenção aos 18 anos.  
