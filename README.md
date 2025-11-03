@@ -1,4 +1,12 @@
-# 👦🏻 Renato Saldanha
+<img 
+    align="left" 
+    alt="radstudio" 
+    title="radstudio"
+    width="30px" 
+    style="margin-right: 10px; border-radius: 20px; justify-items: center" 
+    src="https://drive.google.com/thumbnail?id=1fyLAmwKL6oml3fsiZOEPgwarlRui5pWL&sz=w400"
+/>
+# Renato Saldanha
 
 ## `Desenvolvedor Fullstack`
 
@@ -37,7 +45,7 @@
     title="nextjs"
     width="33px" 
     style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-line-wordmark.svg" 
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" 
 />
 
 
@@ -75,7 +83,7 @@
     title="django"
     width="30px" 
     style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain.svg" 
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain-wordmark.svg" 
 />
 
 <br/>
