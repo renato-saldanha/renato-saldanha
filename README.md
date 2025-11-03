@@ -1,11 +1,3 @@
-<img 
-    align="left" 
-    alt="radstudio" 
-    title="radstudio"
-    width="30px" 
-    style="margin-right: 10px; border-radius: 20px; justify-items: center" 
-    src="https://drive.google.com/thumbnail?id=1fyLAmwKL6oml3fsiZOEPgwarlRui5pWL&sz=w400"
-/>
 # Renato Saldanha
 
 ## `Desenvolvedor Fullstack`
