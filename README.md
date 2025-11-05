@@ -175,9 +175,8 @@ src/
 
 Estou sempre aberto a novas oportunidades e desafios! Entre em contato comigo:
 
-- **Email**: [contato@renatosaldanha.com](mailto:contato@renatosaldanha.com)
+- **Email**: [ranalisesaldanha@gmail.com](mailto:contato@renatosaldanha.com)
 - **LinkedIn**: [Renato Saldanha](https://linkedin.com/in/renato-saldanha)
-- **GitHub**: [@renato-saldanha](https://github.com/renato-saldanha)
 
 ---
 
