@@ -90,9 +90,9 @@ Com o tempo, direcionei meu foco para o **desenvolvimento de sistemas**, área e
 ---
 
 
-<a src="https://github.com/anuraghazra/github-readme-stats">
-   <img alt="Top Languages Card" src="https://github-readme-stats.vercel.app/api/top-langs/?username=renato-saldanha>
-</a>
+<p>
+   <img alt="Top Languages Card" src="https://github-readme-stats.vercel.app/api/top-langs/?username=renato-saldanha">
+</p>
 
 ---
 
