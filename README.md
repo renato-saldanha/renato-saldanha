@@ -89,6 +89,13 @@ Com o tempo, direcionei meu foco para o **desenvolvimento de sistemas**, área e
 
 ---
 
+
+<a href="https://git.io/streak-stats">
+   <img src="https://streak-stats.demolab.com?user=renato-saldanha" alt="GitHub Streak">
+</a>
+
+---
+
 ## 🚀 Sobre mim
 - 🎓 Formado em **Análise e Desenvolvimento de Sistemas** (2018 - FATEC/Senai)  
 - 💼  **Dev Delphi** e **Fullstack NextJS/Node/Python**
