@@ -90,8 +90,8 @@ Com o tempo, direcionei meu foco para o **desenvolvimento de sistemas**, área e
 ---
 
 
-<a href="https://git.io/streak-stats">
-   <img src="https://streak-stats.demolab.com?user=renato-saldanha" alt="GitHub Streak">
+<a src="https://github.com/anuraghazra/github-readme-stats">
+   <img alt="Top Languages Card" src="https://github-readme-stats.vercel.app/api/top-langs/?username=renato-saldanha>
 </a>
 
 ---
