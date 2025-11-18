@@ -102,7 +102,7 @@ Com o tempo, direcionei meu foco para o **desenvolvimento de sistemas**, área e
 - 🌍 Experiência em projetos para **gestão pública, farmácias, supermercados e imobiliárias**  
 - 📌 Foco em **qualidade e flexibilidade**  
 - 🎮 Nas horas vagas, sou entusiasta de **calistenia, música, skate, jogos e cultura gamer**
-- 🧠 Utilizador e praticante de agente IA.
+- 🧠 Estudante de automações com N8N e agentes IA.
 
 ---
 
@@ -114,7 +114,8 @@ Com o tempo, direcionei meu foco para o **desenvolvimento de sistemas**, área e
 - **Web & Mobile:** ReactJS, NextJS, React Native
 - **Backend:** Python, Node.js, Express, Knex, SQLAlchemy, Django
 - **Banco de Dados:** Firebase, Firebird, MySQL, SQLServer e Postgres
-- **Princípios:** SOLID, Clean Code, POO, JSON, API, ACBr, 
+- **Princípios:** SOLID, Clean Code, POO, JSON, API, ACBr,
+- **Automação** N8N
 - **Outros:** ReportBuilder, Stored Procedures, integrações de sistemas  
 - **Familiaridade com metodologias:** Scrum e Kamban
 
