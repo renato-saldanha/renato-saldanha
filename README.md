@@ -89,13 +89,6 @@ Com o tempo, direcionei meu foco para o **desenvolvimento de sistemas**, área e
 
 ---
 
-
-<p>
-   [GitHub Stats](https://github-readme-stats.vercel.app/api?username=renato-saldanha&show_icons=true&theme=dark&hide_border=true&bg_color=0D1117&hide_title=true)
-</p>
-
----
-
 ## 🚀 Sobre mim
 - 🎓 Formado em **Análise e Desenvolvimento de Sistemas** (2018 - FATEC/Senai)  
 - 💼  **Dev Delphi** e **Fullstack NextJS/Node/Python**
