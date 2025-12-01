@@ -91,7 +91,7 @@ Com o tempo, direcionei meu foco para o **desenvolvimento de sistemas**, área e
 
 
 <p>
-   <img alt="Top Languages Card" src="https://github-readme-stats.vercel.app/api/top-langs/?username=renato-saldanha">
+   [GitHub Stats](https://github-readme-stats.vercel.app/api?username=renato-saldanha&show_icons=true&theme=dark&hide_border=true&bg_color=0D1117&hide_title=true)
 </p>
 
 ---
